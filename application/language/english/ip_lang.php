@@ -345,6 +345,7 @@ $lang = array(
     'number_format_iso80k1_comma'                  => '1 000 000,00 (ISO 80000-1 with decimal comma)',
     'number_format_compact_point'                  => '1000000.00 (Compact format with decimal point)',
     'number_format_compact_comma'                  => '1000000,00 (Compact format with decimal comma)',
+    'number_format_ja'                             => '1,000,000 (JA format)',
     'open'                                         => 'Open',
     'open_invoices'                                => 'Open Invoices',
     'open_quotes'                                  => 'Open Quotes',
