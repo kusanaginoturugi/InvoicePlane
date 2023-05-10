@@ -54,5 +54,10 @@ $config['number_formats'] = [
             'decimal_point' => ',',
             'thousands_separator' => '',
         ],
+    'number_format_ja' =>
+        [
+            'label' => 'number_format_ja',
+            'thousands_separator' => ',',
+        ],    
 ];
 
