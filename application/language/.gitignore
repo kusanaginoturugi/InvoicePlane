@@ -1,4 +1,9 @@
 *
 !english
 !english/*
+!japanese
+!japanese/custom_lang.php
+!japanese/form_validation_lang.php
+!japanese/gateway_lang.php
+!japanese/ip_lang.php
 !.gitignore
