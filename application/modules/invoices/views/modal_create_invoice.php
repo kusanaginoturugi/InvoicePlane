@@ -29,12 +29,13 @@
                     }
                     else {
                         // The validation was not successful
+                        close_loader();
                         $('.control-group').removeClass('has-error');
                         for (var key in response.validation_errors) {
                             $('#' + key).parent().parent().addClass('has-error');
                         }
                     }
-                });
+                }).fail(close_loader);
         });
     });
 
