@@ -256,14 +256,14 @@ if ( ! function_exists('format_jpy_pdf_currency')) {
 
 </main>
 
-<footer>
+<div class="invoice-terms">
     <?php if ($invoice->invoice_terms) : ?>
         <div class="notes">
             <b><?php _trans('terms'); ?></b><br/>
             <?php echo nl2br(htmlsc($invoice->invoice_terms)); ?>
         </div>
     <?php endif; ?>
-</footer>
+</div>
 
 </body>
 </html>

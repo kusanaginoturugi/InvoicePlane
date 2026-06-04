@@ -233,14 +233,14 @@ if ( ! function_exists('format_jpy_pdf_currency')) {
 
 </main>
 
-<footer>
+<div class="quote-notes">
     <?php if ($quote->notes) : ?>
         <div class="notes">
             <b><?php _trans('notes'); ?></b><br/>
             <?php echo nl2br(htmlsc($quote->notes)); ?>
         </div>
     <?php endif; ?>
-</footer>
+</div>
 
 </body>
 </html>
